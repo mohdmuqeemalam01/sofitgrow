@@ -1,0 +1,146 @@
+  @media screen and (min-width:1000px) and (max-width:1350px)   {
+    .contact {
+       display: none;
+
+
+
+    }
+
+    .navbar-brand img {
+        float: center;
+        height: 30px;
+    }
+
+    .drops {
+
+        margin-left: -8px;
+        line-height: 20px;
+
+    }
+
+    .adblock {
+        padding: 100px;
+
+
+
+    }
+
+    .adblock h1 {
+
+        font-size: 45px;
+        z-index: 4;
+
+
+    }
+
+    .adblock p {
+
+
+        font-size: 12px;
+        padding: 20px;
+        line-height: 20px;
+    }
+
+}
+/* below mobile screen*/
+
+@media screen and (min-width:200px) and (max-width:1100px)   {
+
+    nav{
+        top:35px;
+
+    }
+
+
+    .navbar-brand img {
+        height: 20px;
+        align-items: center;
+        padding-left:-10px ;
+    }
+
+    .contact {
+        top: 0px;
+        width:100%;
+        height: 30px;
+       
+    }
+
+    .contact p {
+        padding-top: 7px;
+        font-size: 20px;
+
+
+    }
+
+
+
+    .drops {
+        position: absolute;
+
+        margin-left: -5px;
+        line-height: 15px;
+
+    }
+    .adblock{
+        text-align: center;
+        text-align: justify;
+
+
+
+        
+    }
+
+
+    .adblockmes {
+
+        padding: 70px;
+
+
+
+    }
+
+    .adblockmes h1 {
+        font-size:25px;
+        z-index: 4;
+
+
+    }
+
+    .adblock p {
+
+        font-size: 12px;
+        padding: 1px;
+        line-height: 20px;
+    }
+    .contact-1{
+        margin:10px;
+    }
+ .littlemessage h6{
+    font-size: 20px;
+
+ }
+  .littlemessage p{
+    font-size: 10px;
+  }
+  .littlemessage .contact-1{
+    width: 100%;
+    height: 50px;
+    border-radius: 50%
+
+  }
+  .littlemessage .contact-1 p{
+    font-size: 20px;
+  }
+  .ourservices {
+    margin-top: 80px;
+  }
+  .services{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+  }
+  .services  .services1{
+    margin: 0px !important;
+   gap:30px;
+  }
+}

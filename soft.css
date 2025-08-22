@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+nav {
+    position: fixed !important;
+    top: 0px;
+}
+
+.navbar-brand {
+    border-top-right-radius: 10% 60%;
+    border-bottom-right-radius: 10% 40%;
+    box-shadow: 14px 0px 7px 0 rgba(188, 222, 221, 0.5), 14px 0px 7px 0 rgba(244, 224, 224, 0.5);
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.drops {
+    position: absolute;
+
+    margin-left: -20px;
+    line-height: 30px;
+    background-color: white;
+    display: none;
+
+}
+
+.drops li {
+    list-style: none;
+
+}
+
+#dropsk:hover {
+    .drops {
+        display: block;
+    }
+    
+
+
+}
+
+.contact {
+    position: fixed;
+    right: 0px;
+    height: 65px;
+    width: 15%;
+    background-color: #26b765;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    color: white;
+
+
+}
+
+.contact p {
+    text-align: center;
+    padding-top: 14px;
+    font-size: 20px;
+
+}
+
+.adblock {
+    margin-top: 70px;
+    background-image: url("download.webp");
+    background-size: cover;
+    text-align: center;
+    height: 90vh;
+  
+}
+.adblockmes{
+
+    text-align: center;
+    height: 90vh;
+    background-color:rgba(1, 12, 1, 0.582);
+
+}
+
+.adblockmes h1 {
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    z-index: 4;
+
+
+}
+
+.adblockmes p {
+    padding: 60px;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 35px;
+}
+
+.littlemessage h6 {
+
+    font-size: 31px;
+}
+
+.littlemessage h6 .colour {
+    color: #26b765;
+
+}
+
+.littlemessage h6 .size {
+    font-size: 16px;
+}
+
+.contact-1 {
+    position: absolute;
+    right: 0px;
+    height: 60px;
+    width: 60%;
+    background-color: #26b765;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    color: white;
+
+
+}
+
+.contact-1 p {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 7px;
+}
+
+.ourservices h1 {
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 2px 2px rgb(167, 130, 130);
+}
+
+/* services*/
+
+/* services left side*/
+.services1l{
+    padding: 30px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 7px 7px  rgba(0, 0, 0, 0.15) ;
+}
+.services1l h3 a {
+    color: #26b765;
+    text-decoration: none;
+
+}
+
+.services1l span {
+    border: 1px solid #26b765;
+    border-radius: 50%;
+    padding: 12px;
+}
+.services1l span i{
+    color: #26b765;
+}
+
+.services1l p {
+    text-align: left;
+    margin-left: 45px;
+    text-align: justify;
+
+}
+
+/* services right side*/
+.services1r{
+    border-radius: 5%;
+    padding: 30px;
+    box-shadow: 3px 3px 7px 7px rgba(0, 0, 0, 0.15) ;
+}
+.services1r span {
+    border: 1px solid #26b765;
+    border-radius: 50%;
+    padding: 12px;
+
+    
+}
+.services1r span i{
+color:#26b765;
+}
+.services1r h3 {
+    color: #26b765;
+}
+
+.services1r p {
+    text-align: left;
+    margin-left: 45px;
+    text-align: justify;
+}
